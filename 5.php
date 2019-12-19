@@ -19,4 +19,6 @@
 <p>
 <input type="submit" value="Continue">
 </p>
-
+</form>
+</body>
+</html>
