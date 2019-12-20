@@ -1,15 +1,13 @@
 <?php 
-	session_start();
+  session_start();
 ?>
 
-<?php
-echo '<html>';
-echo '<head>';
-echo '<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">';
-echo '<title>Language</title>';
-echo '</head>';
-echo '<body>';
-foreach ($_POST['lang'] as $keys=>$values) echo "$values". $_SESSION['login'];
-echo '</body>';
-echo '</html>';
-?>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<title>Language</title>
+</head>
+<body>
+<?php foreach ($_POST['lang'] as $keys=>$values) echo "$values". $_SESSION['login'];?> 
+</body>
+</html>
