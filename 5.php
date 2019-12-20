@@ -1,3 +1,8 @@
+<?php
+if (!isset($_SESSION['login'])){
+  header("Location:http://localhost/laba2/index.php");
+}
+?>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
